@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Database
+*.db
+db.sqlite3
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Media and static files
+media/
+*.css
+*.js
+*.min.js
+*.min.css
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Dependency files
+requirements.txt
+
+# Local development settings (consider not using this in production)
+settings/local_settings.py
+
+# Miscellaneous
+.DS_Store
